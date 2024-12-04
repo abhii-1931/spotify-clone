@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="header">
+            <div class="leftheader">
+                <img src="svg images/logo.svg" alt="logo" class="spotifylogo sizelogo">
+            </div>
+            <div class="centerheader">
+                <img src="svg images/home.svg" alt="home" class="homelogo sizelogo">
+                <div class="searchbar">
+                    <img src="svg images/search.svg" alt="search" class="searchlogo sizelogo">
+                    <input type="text" name="" id="" class="search-input" placeholder="What do you want to play?">
+                    <img src="svg images/browse.svg" alt="" class="browselogo sizelogo">
+                </div>
+            </div>
+            <div class="rightheader">
+                <button class="signin">
+                    Sign up
+                </button>
+                <button class="login">
+                    Log in
+                </button>
+            </div>
+        </div>
+
+        <div class="containt">
+            <div class="leftcontaint">
+                <div class="library">
+                    <div class="logotextboth">
+                        <img class="librarylogo" src="svg images/library.svg" alt="library">
+                        <span>Your Library</span>
+                    </div>
+                    <div class="addicon">
+                        <img src="svg images/add.svg" alt="add playlists">
+                    </div>
+                </div>
+                <div class="playlists">
+                    <div class="playlist create-playlist">
+                        <h3>Create your first playlist</h3>
+                        <p>It's easy, we'll help you</p>
+                        <button>Create playlist</button>
+                    </div>
+                    <div class="podcast create-playlist">
+                        <h3>Listen your Local playlists</h3>
+                        <p>Enjoy your Downloaded song.</p>
+                        <button>PlayMusic</button>
+                    </div>
+                </div>
+                <div class="localplaylistouter" id="localplaylistouter1">
+
+                </div>
+                <div class="seftypolicy">
+                    <div class="innerpolicy">
+                        <li class="sefty">Legal</li>
+                        <li class="sefty">Sefty&Policy Center</li>
+                        <li class="sefty">Privacy Policy</li>
+                        <li class="sefty">Cookies</li>
+                        <li class="sefty">About Ads</li>
+                        <li class="sefty">Accessibility</li>
+                    </div>
+                    <p class="sefty">Cookies</p>
+                </div>
+                <div class="lang">
+                    <img src="svg images/earth.svg" alt="earth">
+                    <span>English</span>
+                </div>
+            </div>
+            <div class="rightcontaint">
+                <div class="main">
+                    <div class="artist">
+                        <div class="haddingartist">
+                            <h1>Popular Artist</h1>
+                            <small>See All</small>
+                        </div>
+                        <div class="cards">
+                            <!-- javascripts -->
+                        </div>
+                    </div>
+                    <div class="movie">
+                        <div class="haddingmovie">
+                            <h1>Popular movies song</h1>
+                            <small>See All</small>
+                        </div>
+                        <div class="moviecards">
+                            <!-- javascripts -->
+                        </div>
+                    </div>
+                    <div class="album">
+                        <div class="haddingalbum">
+                            <h1>Popular Albums&song</h1>
+                            <small>See All</small>
+                        </div>
+                        <div class="albumcards">
+                            <!-- javascripts -->
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="musicplayer">
+                    <div class='seekdetails'>
+                        <small class="seeksongname"></small>
+                        <div class="playbtn">
+                            <img class="previussong" src="svg images/previus.svg" alt="">
+                            <img class="playpausesong" src="svg images/play.svg" alt="">
+                            <img class="nextsong" src="svg images/next.svg" alt="">
+                        </div>
+                        <div class="timvol">
+                            <div class="volume">
+                                <img src="svg images/volume.svg" alt="volumn logo" class="volumelogo">
+                                <input type="range" name="volrange" id="" class="volumerange">
+                            </div>
+                            <div class="time">
+                                <small class="timeduretion">00:00 / 00:00</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="seekbar">
+
+                    </div>
+                    <div class="circle">
+                        .
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
